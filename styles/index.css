@@ -1,0 +1,24 @@
+#login-container{
+    border-radius: 1rem;
+}
+
+#login-image{
+    border-radius: 1rem 0 0 1rem;
+}
+
+#register-link{
+    color: #393f81;
+}
+
+#main-container{
+    background-color: #56042C;
+}
+
+#qatar-title{
+    color: #56042C;
+}
+
+#login-button:hover{
+    background-color: #56042C;
+    color: white;
+}
