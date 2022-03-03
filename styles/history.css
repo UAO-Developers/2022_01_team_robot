@@ -1,0 +1,37 @@
+nav{
+    padding: 20px;
+    background-color: #56042C;
+    margin-bottom: 20px;
+}
+
+#navbar-title{
+    color: white;
+}
+
+#nav-option{
+    color: azure;
+}
+
+#nav-option:hover{
+    color: gray;
+}
+
+.historial{
+    text-align: center;
+}
+
+#btn-apply-prediction{
+    background-color: #56042C;
+    color: white;
+}
+
+#btn-apply-prediction:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+#name {
+    background-color: #56042C;
+    color: white;
+    text-align: center;
+}
