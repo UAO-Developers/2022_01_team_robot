@@ -13,6 +13,16 @@ header{
     color: azure;
 }
 
+#btn-apply-prediction{
+    background-color: #56042C;
+    color: white;
+}
+
+#btn-apply-prediction:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
 #nav-option:hover{
     color: gray;
 }
@@ -31,4 +41,10 @@ header{
     background-color: white;
     border-radius: 5%;
   }
+
+  nav{
+    padding: 20px;
+    background-color: #56042C;
+    margin-bottom: 20px;
+}
   
