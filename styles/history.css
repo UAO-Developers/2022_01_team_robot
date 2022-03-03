@@ -1,7 +1,3 @@
-#main-container{
-    background-color: #56042C;
-}
-
 nav{
     padding: 20px;
     background-color: #56042C;
@@ -20,6 +16,10 @@ nav{
     color: gray;
 }
 
+.historial{
+    text-align: center;
+}
+
 #btn-apply-prediction{
     background-color: #56042C;
     color: white;
@@ -30,7 +30,8 @@ nav{
     color: black;
 }
 
-#thead-score-table{
+#name {
     background-color: #56042C;
     color: white;
+    text-align: center;
 }
