@@ -24,7 +24,8 @@ function addMatch(){
             "day": `${matchDay}`,
             "month": `${matchMonth}`,
             "hour": `${matchHour}`,
-            "group": `${matchMinutes}`
+            "minutes": `${matchMinutes}`,
+            "group": `${group}`
         }
     
         api.open('POST', url+"match", true)
