@@ -15,20 +15,20 @@
         <img class="mb-4" src="qatar-2022-logo-white-1-700x700.jpg" alt="" width="85" height="85">
         <h1 class="h3 mb-3 fw-normal"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Por favor, registrese</font></font></h1>
         <div class="form-floating">
-            <input type="Nombre" class="form-control" id="floatingInput" placeholder="Nombre">
+            <input type="Nombre" class="form-control" id="nameInput" placeholder="Nombre">
             <label for="floatingInput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nombre</font></font></label>
           </div>
           <div class="form-floating">
-            <input type="Apellido" class="form-control" id="floatingInput" placeholder="Apellido">
+            <input type="Apellido" class="form-control" id="lastNameInput" placeholder="Apellido">
             <label for="floatingInput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apellido</font></font></label>
           </div>
           
         <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com">
+          <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com">
           <label for="floatingInput"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dirección de correo electrónico</font></font></label>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Clave">
+          <input type="password" class="form-control" id="pwdInput" placeholder="Clave">
           <label for="floatingPassword"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Clave</font></font></label>
         </div>
     
@@ -37,10 +37,12 @@
             <input type="checkbox" value="remember-me"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Recuérdame
           </font></font></label>
         </div>
-        <button  class="w-100 btn btn-lg btn-primary" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registrarse</font></font></button>
+        <button  class="w-100 btn btn-lg btn-primary" type="button" id="registerButton"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Registrarse</font></font></button>
         <p class="mb-5 pb-lg-2" id="register-link">Ya tienes una cuenta? <a href="./index.html" id="register-link">Ingresa aquí</a></p>
         <p class="mt-5 mb-3 text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© 2017–2022</font></font></p>
       </form>
     </main>
+    <script src="./js/register.js"></script>
+</body>
     
 </html>
